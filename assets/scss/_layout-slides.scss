@@ -1,0 +1,27 @@
+.remark-slide-content {
+  padding: 2em 4em;
+
+  * {
+    margin-top: var(--spacing-default);
+    margin-bottom: var(--spacing-default);
+  }
+  
+  > :first-child  {
+    margin-top: 0;
+  }
+  
+  > :last-child  {
+    margin-bottom: 0;
+  }
+  
+  blockquote,
+  ol,
+  ul {
+    margin: var(--spacing-lg) 0;
+  }
+  
+  img {
+    height: var(--image-height-default);
+    width: auto;
+  }
+}

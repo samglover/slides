@@ -1,0 +1,31 @@
+@use 'sass:map';
+
+$sides: (
+  'top',
+  'right',
+  'bottom',
+  'left'
+);
+
+$sizes: (
+  'tiny',
+  'xxs',
+  'xs',
+  'sm',
+  'default',
+  'md',
+  'lg',
+  'xl',
+  'xxl',
+  'huge'
+);
+
+.remark-slide-content {
+  @each $side in $sides {
+    @each $size in $sizes {
+      .#{$side}-#{$size} {
+        margin-#{$side}: var(--spacing-#{$size});
+      }
+    }
+  }
+}

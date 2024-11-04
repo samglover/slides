@@ -1,0 +1,73 @@
+a {
+  color: var(--color-links);
+  text-underline-offset: .15em;
+
+  &:hover,
+  &:focus {
+    color: var(--color-links-hover);
+  }
+
+  &:not(:hover, :focus) {
+    text-decoration-color: rgba(0, 0, 0, .1);
+  }
+}
+
+blockquote {
+  color: var(--color-text-headings);
+  margin-left: 0;
+  padding: 0 0 0 var(--spacing-sm);
+
+  p:has(+ p > cite) {
+    margin-bottom: 0;
+  }
+
+  p:has(cite) {
+    margin-top: 0;
+  }
+  
+  cite {
+    color: var(--color-text-light);
+    font-style: normal;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--color-text-headings);
+  line-height: var(--line-height-sm);
+  margin-bottom: var(--spacing-tiny);
+}
+
+h1 {
+  font-size: var(--font-size-xxl);
+}
+
+h2 {
+  font-size: var(--font-size-xl);
+}
+
+h3 {
+  font-size: var(--font-size-lg);
+}
+
+h4 {
+  font-size: var(--font-size-md);
+}
+
+h5 {
+  font-size: var(--font-size-default);
+}
+
+h6 {
+  font-size: var(--font-size-sm);
+}
+
+ul {
+  margin-left: 0;
+  padding-left: 1em;
+  
+  li {
+    &::marker {
+      color: var(--color-decorations);
+    }
+  }
+}

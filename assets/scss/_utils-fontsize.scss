@@ -1,0 +1,23 @@
+@use 'sass:map';
+
+$sizes: (
+  'xs',
+  'sm',
+  'default',
+  'md',
+  'lg',
+  'xl',
+  'xxl',
+  'huge'
+);
+
+@each $size in $sizes {
+  $prop: $size;
+  @if $size == 'sm' {
+    $prop: 'sm, small';
+  }
+
+  .font-size-#{$prop} {
+    font-size: var(--font-size-#{$size});
+  }
+}

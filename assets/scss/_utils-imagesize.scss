@@ -1,0 +1,39 @@
+@use 'sass:map';
+
+$image-sizes: (
+  'xs',
+  'sm',
+  'default',
+  'md',
+  'lg',
+  'xl'
+);
+
+@each $size in $image-sizes {
+  .image-height-#{$size} {
+    img {
+      height: var(--image-height-#{$size});
+      width: auto;
+    }
+  }
+}
+
+$font-sizes: (
+  'xs',
+  'sm',
+  'default',
+  'md',
+  'lg',
+  'xl',
+  'xxl',
+  'huge'
+);
+
+@each $size in $font-sizes {
+  .image-height-font-size-#{$size} {
+    img {
+      height: var(--font-size-#{$size});
+      width: auto;
+    }
+  }
+}

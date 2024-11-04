@@ -1,0 +1,23 @@
+.block {
+  display: block;
+}
+
+.flip-x {
+  &:not(i) {
+    transform: scaleX(-1);
+  }
+  
+  &:where(i)::before {
+    transform: scaleX(-1);
+  }
+}
+
+.flip-y {
+  &:not(i) {
+    transform: scaleY(-1);
+  }
+  
+  &:where(i)::before {
+    transform: scaleY(-1);
+  }
+}

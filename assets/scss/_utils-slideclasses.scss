@@ -1,0 +1,5 @@
+.middle.moveup {
+  &:has(> h1 + *:where(ol, ul):not(.remark-slide-number)) {
+    vertical-align: unset;
+  }
+}

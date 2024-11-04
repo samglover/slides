@@ -1,0 +1,26 @@
+.remark-notes-area {
+  font-size: 1rem;
+}
+
+.remark-toolbar .remark-toolbar-timer,
+.remark-notes-area .remark-bottom-area .remark-toggle {
+  font-family: var(--font-family-default);
+}
+
+.remark-notes,
+.remark-notes-preview {
+  font-family: var(--font-family-default);
+  line-height: var(--line-height-default);
+
+  blockquote {
+    border-left: 3px solid var(--color-dim);
+  }
+
+  ol,
+  ul {
+    li {
+      margin-top: var(--spacing-xxs);
+      margin-bottom: var(--spacing-xxs);
+    }
+  }
+}
