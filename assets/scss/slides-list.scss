@@ -3,16 +3,20 @@
 
 $teal: #67c4cf;
 
+html {
+  font-size: 1.25rem;
+}
+
 :root { 
   --font-family-default: 'Jost', var(--font-system-sans-serif);
   --color-links: #cc0000;
   --color-links-hover: #aa0000;
+
 }
 
 // Layout
 body {
   font-family: var(--font-family-default);
-  font-size: 20px;
   line-height: var(--line-height-default);
   margin: 0;
   padding: 0;
