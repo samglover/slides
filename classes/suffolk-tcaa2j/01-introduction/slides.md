@@ -1,6 +1,6 @@
 class: middle
 
-.image-height-md[![LIT Lab logo](assets/litlab-logos/lit-lab-logo-stacked.svg)]
+.image-height-default[![LIT Lab logo](../assets/litlab-logos/lit-lab-logo-small.svg)]
 # Thinking Critically about Access to Justice
 
 .font-size-md.suffolk-gold[[Sam Glover](https://samglover.net)]
