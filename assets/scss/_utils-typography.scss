@@ -33,6 +33,44 @@
   }
 }
 
+.no-bullets {
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+}
+
+.tablify,
+.tableify,
+.table-ify,
+.tabular {
+  ul,
+  li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  > ul {
+    display: flex;
+    gap: var(--spacing-default);
+
+    > li {
+      color: var(--color-text-light);
+      font-weight: bolder;
+      
+      > ul {
+        color: var(--color-text-body);
+        display: flex;
+        flex-direction: column;
+        font-weight: normal;
+        gap: var(--spacing-sm);
+        margin-top: var(--spacing-sm);
+      }
+    }
+  }
+}
+
 .uppercase {
   text-transform: uppercase;
 }
