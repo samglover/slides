@@ -12,6 +12,22 @@
   --color-text-headings: var(--color-suffolk-blue);
 }
 
+/* Watermark */
+.remark-slides-area {
+  .remark-slide-content {
+    border-left: var(--spacing-sm) solid var(--color-suffolk-gold);
+    padding: 2em 4em 2em calc(4em - var(--spacing-sm));
+  }
+
+  .remark-slide-container:not(:first-child) {
+    .remark-slide-content {
+      background-image: url(assets/lit-lab-logos/lit-lab-torch-inverted.svg);
+      background-position: bottom 1em left 1em;
+      background-size: 1.5em auto;
+    }
+  }
+}
+
 .remark-slide-content {
   /* Colors */
   .suffolk-blue {
@@ -45,21 +61,6 @@
       height: 1.5em;
       place-content: center;
       width: 1.5em;
-    }
-  }
-  
-  /* Gold stripe */
-  .remark-slides-area {
-    .remark-slide-content {
-      border-left: var(--spacing-sm) solid var(--color-suffolk-gold);
-    }
-  
-    .remark-slide-container:not(:first-child) {
-      .remark-slide-content {
-        background-image: url(assets/lit-lab-logos/lit-lab-torch-inverted.svg);
-        background-position: bottom 1em left 1em;
-        background-size: 1.5em auto;
-      }
     }
   }
   
