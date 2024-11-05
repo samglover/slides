@@ -2,6 +2,25 @@
   font-variant: capitalize;
 }
 
+.checklist {
+  ul {
+    list-style: none;
+    padding-left: 0;
+
+    li {
+      align-items: center;
+      display: flex;
+      gap: var(--spacing-sm);
+      
+      &::before {
+        color: var(--color-suffolk-gold);
+        content: '\F26A';
+        font-family: bootstrap-icons;
+      }
+    }
+  }
+}
+
 .label {
   color: var(--color-text-light);
   font-size: var(--font-size-xs);
