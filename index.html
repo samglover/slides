@@ -37,7 +37,7 @@
 						fetch('https://api.github.com/repos/samglover/slides/contents/classes/suffolk-tcaa2j').then(value => value.json()),
 					])
 					.then((value) => {
-						// console.log(value);
+						console.log(value);
 						insertFileList(value[0], 'suffolk-tcaa2j');
 					})
 				}
@@ -50,7 +50,10 @@
 				let nodeCount = 0;
 				let list = document.createElement('ul');
 				for (let node of nodes) {
-					if (node.type !== 'dir' ) continue;
+					if (
+						node.type !== 'dir' ||
+						node.name == 'assets'
+					) continue;
 					nodeCount++;
 					let li = document.createElement('li');
 					li.innerHTML = `<a href="${node.path}">${node.name}</a>`;
