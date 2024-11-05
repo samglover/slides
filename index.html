@@ -25,7 +25,8 @@
 		</header>
 		<main id="main">
 			<section id="suffolk-tcaa2j" class="slides-section">
-				<h2>Classes</h2>
+				<p class="label">Class</p>
+				<h2>Thinking Critically about Access to Justice</h2>
 			</section>
 		</main>
 
@@ -33,7 +34,7 @@
       (async () => {
 				try {
 					let contents = await Promise.all([
-						fetch('https://api.github.com/repos/samglover/slides/contents/classes').then(value => value.json()),
+						fetch('https://api.github.com/repos/samglover/slides/contents/classes/suffolk-tcaa2j').then(value => value.json()),
 					])
 					.then((value) => {
 						// console.log(value);
