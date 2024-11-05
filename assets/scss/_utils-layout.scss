@@ -21,3 +21,16 @@
     transform: scaleY(-1);
   }
 }
+
+// Flex
+.row {
+  display: flex;
+  gap: var(--spacing-sm);
+}
+
+// Grid
+.grid {
+  display: grid;
+  gap: var(--spacing-sm);
+  grid-template-columns: (auto-fill, minmax(min(10rem, 100%), 1fr));
+}
