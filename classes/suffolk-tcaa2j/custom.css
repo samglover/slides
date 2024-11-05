@@ -1,7 +1,5 @@
 /* Variables */
 :root {
-  --font-family-default: 'Museo Sans Rounded', 'Atkinson Hyperlegible', var(--font-system-sans-serif);
-  
   --color-suffolk-blue: #15284b;
   --color-suffolk-blue-dim: rgba(21, 40, 75, .5);
   --color-suffolk-gold: #fdb924;
