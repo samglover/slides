@@ -1,0 +1,18 @@
+@use 'sass:map';
+
+.remark-slide-content {
+  $headings: (
+    h1: 'xxl',
+    h2: 'xl',
+    h3: 'lg',
+    h4: 'md',
+    h5: 'default',
+    h6: 'sm'
+  );
+
+  @each $heading, $size in $headings {
+    #{$heading} {
+      font-size: var(--slides--font-size-#{$size});
+    }
+  }
+}

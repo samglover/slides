@@ -17,7 +17,9 @@ $sizes: (
     $prop: 'sm, small';
   }
 
-  .font-size-#{$prop} {
-    font-size: var(--font-size-#{$size});
+  .remark-slide-content {
+    .font-size-#{$prop} {
+      font-size: var(--slides--font-size-#{$size});
+    }
   }
 }
