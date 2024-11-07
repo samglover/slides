@@ -169,6 +169,10 @@ ul li::marker {
   margin-bottom: var(--spacing-xxs);
 }
 
+.color-white {
+  color: white;
+}
+
 .dim {
   color: var(--color-dim);
 }

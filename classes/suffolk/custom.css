@@ -16,14 +16,25 @@
 .remark-slides-area {
   .remark-slide-content {
     border-left: var(--spacing-sm) solid var(--color-suffolk-gold);
-    padding: 2em 4em 2em calc(4em - var(--spacing-sm));
+    padding: 2em 6em 2em calc(6em - var(--spacing-sm));
   }
 
   .remark-slide-container:not(:first-child) {
     .remark-slide-content {
-      background-image: url(assets/lit-lab-logos/lit-lab-torch-inverted.svg);
-      background-position: bottom 1em left 1em;
-      background-size: 1.5em auto;
+      position: relative;
+
+      &::before {
+        content: '';
+        background-image: url(assets/lit-lab-logos/lit-lab-torch-inverted.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: var(--slides--font-size-xxl);
+        position: absolute;
+          left: 1em;
+          bottom: 1em;
+        width: calc(var(--slides--font-size-xxl) * .4576940605);
+      }
     }
   }
 }
