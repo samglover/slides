@@ -1,0 +1,70 @@
+/* Variables */
+:root {
+  --font-family-default: 'Museo Sans Rounded', 'Atkinson Hyperlegible', var(--font-system-sans-serif);
+  --color-suffolk-blue: #15284b;
+  --color-suffolk-blue-dim: rgba(21, 40, 75, .5);
+  --color-suffolk-gold: #fdb924;
+  --color-suffolk-gold-dim: rgba(253, 185, 36, .5);
+  --color-element-decorations: var(--color-suffolk-gold);
+  --color-links: var(--color-suffolk-gold);
+  --color-links-hover: var(--color-suffolk-gold);
+  --color-text-body: var(--color-suffolk-blue);
+  --color-text-headings: var(--color-suffolk-blue);
+}
+
+.remark-slide-content {
+  /* Colors */
+  .suffolk-blue {
+    color: var(--color-suffolk-blue);
+  }
+  
+  .suffolk-gold {
+    &,
+    & a {
+      color: var(--color-suffolk-gold);
+    }
+  }
+  
+  .dim-suffolk-blue {
+    color: var(--color-suffolk-blue-dim);
+  }
+  
+  .dim-suffolk-gold {
+    color: var(--color-suffolk-gold-dim);
+  }
+  
+  /* Images */
+  i {
+    color: var(--color-suffolk-gold);
+
+    &.circled::before {
+      background-color: var(--color-suffolk-gold);
+      border-radius: 9999px;
+      color: White;
+      display: inline-grid;
+      height: 1.5em;
+      place-content: center;
+      width: 1.5em;
+    }
+  }
+  
+  /* Gold stripe */
+  .remark-slides-area {
+    .remark-slide-content {
+      border-left: var(--spacing-sm) solid var(--color-suffolk-gold);
+    }
+  
+    .remark-slide-container:not(:first-child) {
+      .remark-slide-content {
+        background-image: url(assets/litlab-logos/lit-lab-torch-inverted.svg);
+        background-position: bottom 1em left 1em;
+        background-size: 1.5em auto;
+      }
+    }
+  }
+  
+  /* Layout */
+  
+  /* Typography */
+}
+
