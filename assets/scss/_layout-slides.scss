@@ -1,5 +1,5 @@
 .remark-slide-content {
-  padding: 2em 4em;
+  padding: 2em 6em;
 
   * {
     margin-top: var(--spacing-default);
@@ -10,7 +10,7 @@
     margin-top: 0;
   }
   
-  > :last-child  {
+  > :nth-last-child(2)  {
     margin-bottom: 0;
   }
   

@@ -13,16 +13,26 @@
   --font-system-serif: 'Iowan Old Style', 'Apple Garamond', Baskerville, 'Times New Roman', 'Droid Serif', Times, 'Source Serif Pro', serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
   --font-system-mono: Menlo, Consolas, Monaco, 'Liberation Mono', 'Lucida Console', monospace;
 
-  --font-size-xxs: calc(var(--font-size-xs) / 1.2);
-  --font-size-xs: calc(var(--font-size-sm) / 1.2);
-  --font-size-sm: calc(var(--font-size-default) / 1.2);
-  --font-size-default: 1.25rem;
-  --font-size-md: calc(var(--font-size-default) * 1.2);
-  --font-size-lg: calc(var(--font-size-md) * 1.2);
-  --font-size-xl: calc(var(--font-size-lg) * 1.2);
-  --font-size-xxl: calc(var(--font-size-xl) * 1.2);
-  --font-size-huge: calc(var(--font-size-xxl) * 1.2);
-
+  --slides--font-size-xxs: calc(var(--slides--font-size-xs) / 1.2);
+  --slides--font-size-xs: calc(var(--slides--font-size-sm) / 1.2);
+  --slides--font-size-sm: calc(var(--slides--font-size-default) / 1.2);
+  --slides--font-size-default: 1.875rem;
+  --slides--font-size-md: calc(var(--slides--font-size-default) * 1.2);
+  --slides--font-size-lg: calc(var(--slides--font-size-md) * 1.2);
+  --slides--font-size-xl: calc(var(--slides--font-size-lg) * 1.2);
+  --slides--font-size-xxl: calc(var(--slides--font-size-xl) * 1.2);
+  --slides--font-size-huge: calc(var(--slides--font-size-xxl) * 1.2);
+  
+  --index--font-size-xxs: calc(var(--index--font-size-xs) / 1.2);
+  --index--font-size-xs: calc(var(--index--font-size-sm) / 1.2);
+  --index--font-size-sm: calc(var(--index--font-size-default) / 1.2);
+  --index--font-size-default: 1.25rem;
+  --index--font-size-md: calc(var(--index--font-size-default) * 1.2);
+  --index--font-size-lg: calc(var(--index--font-size-md) * 1.2);
+  --index--font-size-xl: calc(var(--index--font-size-lg) * 1.2);
+  --index--font-size-xxl: calc(var(--index--font-size-xl) * 1.2);
+  --index--font-size-huge: calc(var(--index--font-size-xxl) * 1.2);
+  
   --image-height-xs: calc(var(--image-height-sm) / 1.5);
   --image-height-sm: calc(var(--image-height-default) / 1.5);
   --image-height-default: 9.375rem;

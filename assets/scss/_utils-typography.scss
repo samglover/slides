@@ -2,28 +2,32 @@
   font-variant: capitalize;
 }
 
-.checklist {
-  ul {
-    list-style: none;
-    padding-left: 0;
+.circle {
+  color: White;
+  display: inline-block;
+  margin: 0;
+  padding: 0 .25em;
+  position: relative;
+  z-index: 1;
 
-    li {
-      align-items: center;
-      display: flex;
-      gap: var(--spacing-sm);
-      
-      &::before {
-        color: var(--color-suffolk-gold);
-        content: '\F26A';
-        font-family: bootstrap-icons;
-      }
-    }
+  &::after {
+    content: '';
+    display: block;
+    background-color: var(--color-element-decorations);
+    border-radius: 9999px;
+    height: 1.25em;
+    position: absolute;
+      top: 50%;
+      left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 1.25em;
+    width: 100%;
+    z-index: -1;
   }
 }
 
 .label {
   color: var(--color-text-light);
-  font-size: var(--font-size-xs);
   font-weight: bold;
   margin-bottom: 0 !important;
   text-transform: uppercase;
@@ -33,9 +37,68 @@
   }
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+
+
+// List Styles
+.checklist,
+.circled-numbers {
+  ol,
+  ul {
+    list-style: none;
+    padding-left: 0;
+
+    li {
+      padding-left: calc(1.75em + var(--spacing-xs));
+      position: relative;
+
+      &::before {
+        background-color: var(--color-element-decorations);
+        border-radius: 9999px;
+        color: White;
+        display: inline-grid;
+        font-weight: bolder;
+        height: 1.5em;
+        margin-right: var(--spacing-default);
+        place-content: center;
+        position: absolute;
+          top: calc(-1 * (1lh - 1em) / 2);
+          left: 0;
+        width: 1.5em;
+      }
+    }
+  }
+}
+
+.checklist {
+  li::before {
+    content: '\F633';
+    font-family: bootstrap-icons !important;
+  }
+}
+
+.circled-numbers {
+  ol {
+    counter-reset: circled-numbers;
+
+    li {
+      counter-increment: circled-numbers;
+
+      &::before {
+        content: counter(circled-numbers);
+      }
+    }
+  }
+}
+
 .no-bullets {
   ul {
     list-style: none;
+  }
+
+  > ul {
     padding-left: 0;
   }
 }
@@ -53,11 +116,17 @@
 
   > ul {
     display: flex;
-    gap: var(--spacing-default);
+    gap: var(--spacing-md);
 
     > li {
       color: var(--color-text-light);
       font-weight: bolder;
+
+      &:first-child {
+        > ul {
+          font-weight: bolder;
+        }
+      }
       
       > ul {
         color: var(--color-text-body);
@@ -69,8 +138,4 @@
       }
     }
   }
-}
-
-.uppercase {
-  text-transform: uppercase;
 }
