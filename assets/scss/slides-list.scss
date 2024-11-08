@@ -1,31 +1,25 @@
-// Variables
 @import 'variables';
+@import 'typography';
+@import 'utils-fontsize';
+@import 'utils-layout';
+@import 'utils-spacing';
+@import 'utils-typography';
 
 $teal: #67c4cf;
-
-html {
-  font-size: 1.25rem;
-}
 
 :root { 
   --font-family-default: 'Jost', var(--font-system-sans-serif);
   --color-links: #cc0000;
   --color-links-hover: #aa0000;
-
 }
 
 // Layout
 body {
   font-family: var(--font-family-default);
+  font-size: 1.25rem;
   line-height: var(--line-height-default);
   margin: 0;
   padding: 0;
-
-  @import 'typography';
-  @import 'utils-fontsize';
-  @import 'utils-layout';
-  @import 'utils-spacing';
-  @import 'utils-typography';
 }
 
 #header,
@@ -73,7 +67,7 @@ body {
 
 .slides-section {
   h2 {
-    font-size: var(--font-size-default);
+    font-size: var(--index--font-size-md);
     line-height: var(--line-height-sm);
     margin-top: var(--spacing-lg);
     margin-bottom: var(--spacing-default);
@@ -82,6 +76,10 @@ body {
   p {
     margin-top: var(--spacing-default);
     margin-bottom: var(--spacing-default);
+
+    &.label {
+      font-size: var(--index--font-size-sm);
+    }
   }
 
   ul {

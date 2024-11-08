@@ -23,8 +23,14 @@ $sizes: (
 .remark-slide-content {
   @each $side in $sides {
     @each $size in $sizes {
-      .#{$side}-#{$size} {
-        margin-#{$side}: var(--spacing-#{$size});
+      .margin-#{$side}-#{$size} {
+        &:not(:has(img)) {
+          margin-#{$side}: var(--spacing-#{$size});
+        }
+        
+        img {
+          margin-#{$side}: var(--spacing-#{$size});
+        }
       }
     }
   }

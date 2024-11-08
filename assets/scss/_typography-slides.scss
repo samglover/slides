@@ -1,12 +1,9 @@
-.remark-slides-area {
-}
-
 .remark-slide-content {
   color: var(--color-text-body);
   font-family: var(--font-family-default);
-  font-size: 1.875rem;
+  font-size: var(--slides--font-size-default);
   line-height: var(--line-height-default);
-  
+
   blockquote {
     border-left: 10px solid var(--color-decorations);
     font-size: var(--font-size-md);
