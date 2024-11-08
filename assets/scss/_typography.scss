@@ -13,9 +13,10 @@ a {
 }
 
 blockquote {
-  color: var(--color-text-headings);
+  border-left: 3px solid var(--color-element-decorations);
+  color: var(--slides--color-text-headings);
   margin-left: 0;
-  padding: 0 0 0 var(--spacing-sm);
+  padding: 0 0 0 var(--spacing-md);
 
   p:has(+ p > cite) {
     margin-bottom: 0;
@@ -27,6 +28,7 @@ blockquote {
   
   cite {
     color: var(--color-text-light);
+    font-size: var(--slides--font-size-sm);
     font-style: normal;
   }
 }
