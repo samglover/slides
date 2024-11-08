@@ -14,9 +14,13 @@ Description:
 
 ---
 
+<i class="bi bi-signpost-split circled color-suffolk-gold font-size-xxl"></i>
+
 # Digital public infrastructure
 
 ---
+
+<i class="bi bi-code-slash circled color-suffolk-gold font-size-xxl"></i>
 
 ## Open-source software
 
@@ -27,6 +31,8 @@ Description:
 
 ---
 
+<i class="bi bi-ubuntu circled color-suffolk-gold font-size-xxl"></i>
+
 ## Non-profit partnerships
 
 * DIY
@@ -35,9 +41,13 @@ Description:
 
 ---
 
+<i class="bi bi-receipt-cutoff circled color-suffolk-gold font-size-xxl"></i>
+
 ## Open-source & non-profit friendly RFPs
 
 ---
+
+<i class="bi bi-eye circled color-suffolk-gold font-size-xxl"></i>
 
 ## Open-source A2J projects to know
 
