@@ -61,9 +61,10 @@ a:not(:hover, :focus) {
 }
 
 blockquote {
-  color: var(--color-text-headings);
+  border-left: 3px solid var(--color-element-decorations);
+  color: var(--slides--color-text-headings);
   margin-left: 0;
-  padding: 0 0 0 var(--spacing-sm);
+  padding: 0 0 0 var(--spacing-md);
 }
 blockquote p:has(+ p > cite) {
   margin-bottom: 0;
@@ -73,6 +74,7 @@ blockquote p:has(cite) {
 }
 blockquote cite {
   color: var(--color-text-light);
+  font-size: var(--slides--font-size-sm);
   font-style: normal;
 }
 
@@ -136,15 +138,11 @@ ul li::marker {
 .remark-slide-content {
   color: var(--color-text-body);
   font-family: var(--font-family-default);
-  font-size: var(--slides--font-size-default);
+  font-size: var(--slides--font-size-md);
   line-height: var(--line-height-default);
 }
 .remark-slide-content blockquote {
-  border-left: 10px solid var(--color-element-decorations);
-  font-size: var(--font-size-md);
-}
-.remark-slide-content blockquote cite {
-  font-size: var(--font-size-sm);
+  border-left-width: 10px;
 }
 
 .remark-toolbar .remark-toolbar-timer,
@@ -156,10 +154,6 @@ ul li::marker {
 .remark-notes-preview {
   font-family: var(--font-family-default);
   line-height: var(--line-height-default);
-}
-.remark-notes blockquote,
-.remark-notes-preview blockquote {
-  border-left: 3px solid var(--color-dim);
 }
 .remark-notes ol li,
 .remark-notes ul li,
