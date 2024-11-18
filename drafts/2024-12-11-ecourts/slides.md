@@ -16,7 +16,11 @@ Description:
 
 <i class="bi bi-signpost-split circled color-suffolk-gold font-size-xxl"></i>
 
-# Digital public infrastructure
+# Digital infrastructure
+
+???
+* Roads and bridges are physical infrastructure
+* Court technology is digital infrastructure—especially the public-facing components like e-filing tools and litigant portals
 
 ---
 

@@ -64,7 +64,7 @@ blockquote {
   border-left: 3px solid var(--color-element-decorations);
   color: var(--slides--color-text-headings);
   margin-left: 0;
-  padding: 0 0 0 var(--spacing-default);
+  padding: 0 0 0 var(--spacing-md);
 }
 blockquote p:has(+ p > cite) {
   margin-bottom: 0;
@@ -143,6 +143,9 @@ ul li::marker {
 }
 .remark-slide-content blockquote {
   border-left-width: 10px;
+}
+.remark-slide-content blockquote p:has(cite) {
+  line-height: var(--line-height-sm);
 }
 
 .remark-toolbar .remark-toolbar-timer,
