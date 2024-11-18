@@ -6,6 +6,9 @@
 
   blockquote {
     border-left-width: 10px;
-    padding-left: var(--spacing-md);
+
+    p:has(cite) {
+      line-height: var(--line-height-sm);
+    }
   }
 }
