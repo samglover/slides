@@ -6,7 +6,7 @@
 
   blockquote {
     border-left-width: 10px;
-    
+
     p:has(cite) {
       line-height: var(--line-height-sm);
     }
