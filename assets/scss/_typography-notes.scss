@@ -8,6 +8,16 @@
   font-family: var(--font-family-default);
   line-height: var(--line-height-default);
 
+  blockquote {
+    p:not(:has(cite)) {
+      font-size: 1.2em;
+    }
+
+    p:has(cite) {
+      line-height: var(--line-height-sm);
+    }
+  }
+
   ol,
   ul {
     li {

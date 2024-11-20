@@ -71,6 +71,10 @@ body {
     line-height: var(--line-height-sm);
     margin-top: var(--spacing-lg);
     margin-bottom: var(--spacing-default);
+    
+    &.label {
+      font-size: var(--index--font-size-sm);
+    }
   }
 
   p {

@@ -17,18 +17,9 @@ blockquote {
   color: var(--slides--color-text-headings);
   margin-left: 0;
   padding: 0 0 0 var(--spacing-md);
-
-  p:has(+ p > cite) {
-    margin-bottom: 0;
-  }
-
-  p:has(cite) {
-    margin-top: 0;
-  }
   
   cite {
     color: var(--color-text-light);
-    font-size: var(--slides--font-size-sm);
     font-style: normal;
   }
 }

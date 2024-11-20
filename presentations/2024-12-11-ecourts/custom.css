@@ -16,7 +16,7 @@
 .remark-slides-area {
   .remark-slide-content {
     border-left: var(--spacing-sm) solid var(--color-suffolk-gold);
-    padding: 2em 6em 2em calc(6em - var(--spacing-sm));
+    padding: 2em 5em 2em calc(5em - var(--spacing-sm));
   }
 
   .remark-slide-container:not(:first-child) {
@@ -41,7 +41,7 @@
 
 .remark-slide-content {
   /* Colors */
-  .suffolk-blue {
+  .color-suffolk-blue {
     color: var(--color-suffolk-blue);
   }
   
@@ -72,6 +72,14 @@
       height: 1.5em;
       place-content: center;
       width: 1.5em;
+    }
+
+    &.circled.color-suffolk-blue::before {
+      background-color: var(--color-suffolk-blue);
+    }
+
+    &.circled.font-size-3xhuge {
+      font-size: calc(var(--slides--font-size-huge) * 3);
     }
   }
   
