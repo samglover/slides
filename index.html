@@ -24,6 +24,9 @@
 				<a class="subtitle uppercase" href="https://samglover.net" target="_blank">Sam Glover</a></h1>
 		</header>
 		<main id="main">
+			<section id="presentations" class="slides-section">
+				<h2 class="label">presentations</h2>
+			</section>
 			<section id="suffolk-lit-clinic" class="slides-section">
 				<p class="label">Class</p>
 				<h2>LIT Clinic</h2>
@@ -38,14 +41,16 @@
       (async () => {
 				try {
 					let contents = await Promise.all([
+						fetch('https://api.github.com/repos/samglover/slides/contents/presentations').then(value => value.json()),
 						fetch('https://api.github.com/repos/samglover/slides/contents/classes/suffolk/lit-clinic').then(value => value.json()),
 						fetch('https://api.github.com/repos/samglover/slides/contents/classes/suffolk/tcaa2j').then(value => value.json())
 					])
 					.then((value) => {
 						// The value array keys will be in the same order as the fetches, above.
 						// console.log(value);
-						insertFileList(value[0], 'suffolk-lit-clinic');
-						insertFileList(value[1], 'suffolk-tcaa2j');
+						insertFileList(value[0], 'presentations');
+						insertFileList(value[1], 'suffolk-lit-clinic');
+						insertFileList(value[2], 'suffolk-tcaa2j');
 					})
 				}
 				catch(err) {

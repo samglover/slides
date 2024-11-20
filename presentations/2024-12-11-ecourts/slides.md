@@ -1,4 +1,14 @@
-.image-height-sm.margin-bottom-lg[![LIT Lab logo](assets/lit-lab-logos/lit-lab-logo-small.svg)]
+.row.align-items-center.gap-lg.margin-bottom-lg[
+  .col.image-height-sm[
+    ![LIT Lab logo](assets/lit-lab-logos/lit-lab-logo-small.svg)
+  ]
+  .col[
+    <i class="bi bi-plus-lg color-suffolk-blue-dim font-size-xxl"></i>
+  ]
+  .col.image-height-sm[
+    ![Free Law Project logo](assets/free-law-logo.svg)
+  ]
+]
 
 .color-suffolk-blue-dim[Building Access-to-Justice Infrastructure]
 # Leveraging Open Source Software & Non Profit Partnerships
@@ -14,19 +24,49 @@ Description:
 
 ---
 
-<i class="bi bi-signpost-split circled color-suffolk-gold font-size-xxl"></i>
+<i class="bi bi-map-fill circled color-suffolk-gold font-size-xxl"></i>
 
-# Digital infrastructure
+## What we'll cover
 
-???
-* Roads and bridges are physical infrastructure
-* Court technology is digital infrastructure—especially the public-facing components like e-filing tools and litigant portals
+* Digital infrastructure
+* Free & open-source software (FOSS)
+* Non-profit partnerships
+* FOSS & non-profit friendly procurement
 
 ---
+class: center, middle
+
+<i class="bi bi-question-circle-fill circled color-suffolk-blue font-size-3xhuge"></i>
+
+???
+* Please ask questions!
+* We would prefer to have a discussion
+
+---
+class: middle
+
+<i class="bi bi-signpost-split circled color-suffolk-gold font-size-xxl"></i>
+
+## Digital infrastructure
+
+???
+* Roads and bridges
+* Court technology—especially public-facing components like e-filing tools and litigant portals
+
+---
+class: middle
 
 <i class="bi bi-code-slash circled color-suffolk-gold font-size-xxl"></i>
 
-## Open-source software
+## Free & open-source software (FOSS)
+
+???
+* Pros
+* Cons
+* Notable projects
+  * Free Law Project
+  * Docassemble
+  * The Document Assembly Line & EFSP
 
 > In many cases, using open source software … is a reasonable or even superior approach to using their proprietary competition …."
 > 
@@ -34,27 +74,34 @@ Description:
 </cite>
 
 ---
+class: middle
 
 <i class="bi bi-ubuntu circled color-suffolk-gold font-size-xxl"></i>
 
 ## Non-profit partnerships
 
+???
 * DIY
 * DIWU
 * DIFY
 
 ---
+class: middle
 
 <i class="bi bi-receipt-cutoff circled color-suffolk-gold font-size-xxl"></i>
 
-## Open-source & non-profit friendly RFPs
+## Open-source & non-profit friendly procurement
+
+???
+* Software is not furniture
+* Investment, not purchase
+* Collaboration, not vendor-customer
 
 ---
+class: middle
 
-<i class="bi bi-eye circled color-suffolk-gold font-size-xxl"></i>
+## Want to work with us?
 
-## Open-source A2J projects to know
+<i class="bi bi-envelope circled"></i> [sam.glover@suffolk.edu](mailto:sam.glover@suffolk.edu)
 
-* Docassemble
-* Suffolk LIT Lab's Document Assembly Line & EFSP
-* Free Law Project's e-filing project
+<i class="bi bi-envelope circled"></i> [jessica@free.law](mailto:jessica@free.law)

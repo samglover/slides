@@ -10,5 +10,9 @@
     p:has(cite) {
       line-height: var(--line-height-sm);
     }
+
+    cite {
+      font-size: var(--slides--font-size-sm);
+    }
   }
 }

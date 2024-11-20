@@ -16,19 +16,10 @@ blockquote {
   border-left: 3px solid var(--color-element-decorations);
   color: var(--slides--color-text-headings);
   margin-left: 0;
-  padding: 0 0 0 var(--spacing-default);
-
-  p:has(+ p > cite) {
-    margin-bottom: 0;
-  }
-
-  p:has(cite) {
-    margin-top: 0;
-  }
+  padding: 0 0 0 var(--spacing-md);
   
   cite {
     color: var(--color-text-light);
-    font-size: var(--slides--font-size-sm);
     font-style: normal;
   }
 }

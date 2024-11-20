@@ -2,6 +2,11 @@
   display: block;
 }
 
+.centered {
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .flip-x {
   &:not(i) {
     transform: scaleX(-1);
@@ -22,15 +27,61 @@
   }
 }
 
-// Flex
+// Flex & Grid
 .row {
   display: flex;
   gap: var(--spacing-sm);
+  margin-top: var(--spacing-default);
+  margin-bottom: var(--spacing-default);
+
+  & > *,
+  img {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
 }
 
-// Grid
 .grid {
   display: grid;
   gap: var(--spacing-sm);
   grid-template-columns: (auto-fill, minmax(min(10rem, 100%), 1fr));
+
+  margin-top: var(--spacing-default);
+  margin-bottom: var(--spacing-default);
+  
+  & > *,
+  img {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+.col {
+  & > * {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+$sizes: (
+  'tiny',
+  'xxs',
+  'xs',
+  'sm',
+  'default',
+  'md',
+  'lg',
+  'xl',
+  'xxl',
+  'huge'
+);
+
+@each $size in $sizes {
+  .gap-#{$size} {
+    gap: var(--spacing-#{$size});
+  }
 }
