@@ -17,20 +17,20 @@ class: middle
 
 The following core components are free and open source thanks to an active community of courts, legal aid organizations, and volunteers.
 
-.grid.font-size-lg.gap-lg.margin-top-lg[
-  .row.align-items-center[
-    <i class="bi bi-grid-1x2-fill circle font-size-xxl rotate-90-cw"></i>
-    <p>Court Forms Online</p>
+.font-size-md.margin-top-lg[
+  .row.align-items-center.gap-md.margin-bottom-md[
+    <i class="bi bi-grid-1x2-fill circle font-size-xl rotate-90-cw"></i>
+    <p>**Court Forms Online**</p>
   ]
 
-  .row.align-items-center[
-    <i class="bi bi-gear-fill circle font-size-xxl"></i>
-    <p>AL software</p>
+  .row.align-items-center.gap-md.margin-bottom-md[
+    <i class="bi bi-gear-fill circle font-size-xl"></i>
+    <p>**AL software**</p>
   ]
 
-  .row.align-items-center[
-    <i class="bi bi-heart-fill circle font-size-xxl"></i>
-    <p>Community</p>
+  .row.align-items-cente.gap-md[
+    <i class="bi bi-heart-fill circle font-size-xl"></i>
+    <p>**Community**</p>
   ]
 ]
 ---
@@ -38,20 +38,20 @@ The following core components are free and open source thanks to an active commu
 
 Funded partnerships with courts support the Document Assembly Line and enable us to provide additional services for our partners.
 
-.grid.font-size-lg.gap-lg.margin-top-lg[
-  .row.align-items-center[
-    <i class="bi bi-inboxes circle font-size-xxl"></i>
-    <p>E-filing</p>
+.font-size-md.margin-top-lg[
+  .row.align-items-center.gap-md.margin-bottom-md[
+    <i class="bi bi-inboxes circle font-size-xl"></i>
+    <p>**E-filing**</p>
+  ]
+  
+  .row.align-items-center.gap-md.margin-bottom-md[
+    <i class="bi bi-hdd-stack circle font-size-xl"></i>
+    <p>**Hosting**</p>
   ]
 
-  .row.align-items-center[
-    <i class="bi bi-hdd-stack circle font-size-xxl"></i>
-    <p>Hosting</p>
-  ]
-
-  .row.align-items-center[
-    <i class="bi bi-chat-dots circle font-size-xxl"></i>
-    <p>Training & support</p>
+  .row.align-items-center.gap-md[
+    <i class="bi bi-chat-dots circle font-size-xl"></i>
+    <p>**Training & support**</p>
   ]
 ]
 ---
