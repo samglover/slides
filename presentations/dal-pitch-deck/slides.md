@@ -7,6 +7,12 @@ class: no-watermark
 
 .image-height-md.align-to-bottom.right[![](assets/lit-lab-logos/lit-lab-logo-stacked-inverted.svg)]
 ---
+class: middle
+
+> .font-size-lg[A well-designed form allows people to express themselves in a way the court can understand.]
+> 
+> <cite>David Colarusso, LIT Lab Co-Director</cite>
+---
 # Free & open-source components
 
 The following core components are free and open source thanks to an active community of courts, legal aid organizations, and volunteers.
