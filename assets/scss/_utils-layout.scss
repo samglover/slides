@@ -7,6 +7,16 @@
   margin-left: auto;
 }
 
+.left {
+  margin-right: auto;
+  margin-left: 0;
+}
+
+.right {
+  margin-right: 0;
+  margin-left: auto;
+}
+
 .flip-x {
   &:not(i) {
     transform: scaleX(-1);
@@ -27,6 +37,36 @@
   }
 }
 
+.rotate-90-cw {
+  &:not(i) {
+    transform: rotate(90deg);
+  }
+  
+  &:where(i)::before {
+    transform: rotate(90deg);
+  }
+}
+
+.rotate-90-ccw {
+  &:not(i) {
+    transform: rotate(-90deg);
+  }
+  
+  &:where(i)::before {
+    transform: rotate(-90deg);
+  }
+}
+
+.rotate-180 {
+  &:not(i) {
+    transform: rotate(180deg);
+  }
+  
+  &:where(i)::before {
+    transform: rotate(180deg);
+  }
+}
+
 // Flex & Grid
 .row {
   display: flex;
@@ -44,7 +84,7 @@
 .grid {
   display: grid;
   gap: var(--spacing-sm);
-  grid-template-columns: (auto-fill, minmax(min(10rem, 100%), 1fr));
+  grid-template-columns: repeat(2, 1fr);
 
   margin-top: var(--spacing-default);
   margin-bottom: var(--spacing-default);

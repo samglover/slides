@@ -301,6 +301,16 @@ ul li::marker {
   margin-left: auto;
 }
 
+.left {
+  margin-right: auto;
+  margin-left: 0;
+}
+
+.right {
+  margin-right: 0;
+  margin-left: auto;
+}
+
 .flip-x:not(i) {
   transform: scaleX(-1);
 }
@@ -313,6 +323,27 @@ ul li::marker {
 }
 .flip-y:where(i)::before {
   transform: scaleY(-1);
+}
+
+.rotate-90-cw:not(i) {
+  transform: rotate(90deg);
+}
+.rotate-90-cw:where(i)::before {
+  transform: rotate(90deg);
+}
+
+.rotate-90-ccw:not(i) {
+  transform: rotate(-90deg);
+}
+.rotate-90-ccw:where(i)::before {
+  transform: rotate(-90deg);
+}
+
+.rotate-180:not(i) {
+  transform: rotate(180deg);
+}
+.rotate-180:where(i)::before {
+  transform: rotate(180deg);
 }
 
 .row {
@@ -330,7 +361,7 @@ ul li::marker {
 .grid {
   display: grid;
   gap: var(--spacing-sm);
-  grid-template-columns: auto-fill, minmax(min(10rem, 100%), 1fr);
+  grid-template-columns: repeat(2, 1fr);
   margin-top: var(--spacing-default);
   margin-bottom: var(--spacing-default);
 }
@@ -633,6 +664,24 @@ ul li::marker {
 .remark-slide-content .margin-left-huge img {
   margin-left: var(--spacing-huge);
 }
+.remark-slide-content :has(> :first-child.margin-top-0) {
+  margin-top: 0;
+}
+.remark-slide-content .margin-top-0 {
+  margin-top: 0;
+}
+.remark-slide-content .margin-top-0 > :first-child {
+  margin-top: 0;
+}
+.remark-slide-content :has(> :last-child.margin-bottom-0) {
+  margin-bottom: 0;
+}
+.remark-slide-content .margin-bottom-0 {
+  margin-bottom: 0;
+}
+.remark-slide-content .margin-bottom-0 > :last-child {
+  margin-bottom: 0;
+}
 
 .capitalize {
   font-variant: capitalize;
@@ -640,11 +689,17 @@ ul li::marker {
 
 .circle {
   color: White;
-  display: inline-block;
+  display: inline-grid;
+  height: 1lh;
   margin: 0;
-  padding: 0 0.25em;
+  min-width: 1lh;
+  padding: 0;
+  place-content: center;
   position: relative;
   z-index: 1;
+}
+.circle::before {
+  font-size: 0.75em;
 }
 .circle::after {
   content: "";
@@ -669,6 +724,14 @@ ul li::marker {
 }
 .label + * {
   margin-top: 0 !important;
+}
+
+.lighter {
+  font-weight: lighter;
+}
+
+.bolder {
+  font-weight: bolder;
 }
 
 .uppercase {

@@ -70,10 +70,10 @@ body {
     font-size: var(--index--font-size-md);
     line-height: var(--line-height-sm);
     margin-top: var(--spacing-lg);
-    margin-bottom: var(--spacing-default);
     
     &.label {
       font-size: var(--index--font-size-sm);
+      margin-bottom: var(--spacing-sm) !important;
     }
   }
 
@@ -83,11 +83,14 @@ body {
 
     &.label {
       font-size: var(--index--font-size-sm);
+      margin-top: var(--spacing-lg);
     }
   }
 
   ul {
     list-style: none;
+    margin-top: var(--spacing-sm);
+    margin-bottom: var(--spacing-default);
     margin-left: 0;
     padding: 0;
 

@@ -4,11 +4,18 @@
 
 .circle {
   color: White;
-  display: inline-block;
+  display: inline-grid;
+  height: 1lh;
   margin: 0;
-  padding: 0 .25em;
+  min-width: 1lh;
+  padding: 0;
+  place-content: center;
   position: relative;
   z-index: 1;
+
+  &::before {
+    font-size: .75em;
+  }
 
   &::after {
     content: '';
@@ -35,6 +42,14 @@
   + * {
     margin-top: 0 !important;
   }
+}
+
+.lighter {
+  font-weight: lighter;
+}
+
+.bolder {
+  font-weight: bolder;
 }
 
 .uppercase {
