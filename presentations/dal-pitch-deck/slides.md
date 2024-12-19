@@ -40,13 +40,13 @@ Funded partnerships with courts support the Document Assembly Line and enable us
 
 .grid.font-size-lg.gap-lg.margin-top-lg[
   .row.align-items-center[
-    <i class="bi bi-hdd-stack circle font-size-xxl"></i>
-    <p>Hosting</p>
+    <i class="bi bi-inboxes circle font-size-xxl"></i>
+    <p>E-filing</p>
   ]
 
   .row.align-items-center[
-    <i class="bi bi-inboxes circle font-size-xxl"></i>
-    <p>E-filing</p>
+    <i class="bi bi-hdd-stack circle font-size-xxl"></i>
+    <p>Hosting</p>
   ]
 
   .row.align-items-center[
