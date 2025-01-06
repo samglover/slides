@@ -30,6 +30,11 @@ body {
     max-width: 768px;
     padding-right: var(--spacing-sm);
     padding-left: var(--spacing-sm);
+    
+    @media (max-width: 576px) {
+      padding-right: var(--spacing-md);
+      padding-left: var(--spacing-md);
+    }
   }
 }
 
@@ -51,6 +56,12 @@ body {
       &:not(:hover, :focus) {
         color: White;
       }
+    }
+  }
+
+  .subtitle {
+    @media (max-width: 576px) {
+      display: block;
     }
   }
 }
