@@ -88,6 +88,14 @@
 
   margin-top: var(--spacing-default);
   margin-bottom: var(--spacing-default);
+
+  &.grid-2-1 {
+    grid-template-columns: 2fr 1fr;
+  }
+
+  &.grid-1-2 {
+    grid-template-columns: 1fr 2fr;
+  }
   
   & > *,
   img {
@@ -97,8 +105,11 @@
 }
 
 .col {
-  & > * {
+  & > :first-child {
     margin-top: 0;
+  }
+
+  & > :last-child {
     margin-bottom: 0;
   }
 }

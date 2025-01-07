@@ -18,6 +18,20 @@ $image-sizes: (
   }
 }
 
+.image-height-full {
+  img {
+    height: 100%;
+    width: auto;
+  }
+}
+
+.image-width-full {
+  img {
+    height: auto;
+    width: 100%;
+  }
+}
+
 $font-sizes: (
   'xs',
   'sm',

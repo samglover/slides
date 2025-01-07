@@ -52,6 +52,13 @@
   font-weight: bolder;
 }
 
+.line-height-default {
+  line-height: var(--line-height-default);
+}
+.line-height-sm {
+  line-height: var(--line-height-sm);
+}
+
 .uppercase {
   text-transform: uppercase;
 }

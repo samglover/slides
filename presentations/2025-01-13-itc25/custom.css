@@ -1,0 +1,105 @@
+/* Variables */
+:root {
+  --color-suffolk-blue: #15284b;
+  --color-suffolk-blue-dim: rgba(21, 40, 75, .5);
+  --color-suffolk-gold: #fdb924;
+  --color-suffolk-gold-dim: rgba(253, 185, 36, .5);
+
+  --color-element-decorations: var(--color-suffolk-gold);
+  --color-links: var(--color-suffolk-gold);
+  --color-links-hover: var(--color-suffolk-gold);
+  --color-text-body: White;
+  --color-text-headings: var(--color-suffolk-gold);
+}
+
+/* Watermark */
+.remark-slides-area {
+  .remark-slide-content {
+    background-color: var(--color-suffolk-blue);
+    padding: 2em 4em;
+    position: relative;
+
+    .itc25-footer {
+      background-color: white;
+      box-sizing: border-box;
+      content: '';
+      display: flex;
+      height: 14%;
+      gap: var(--spacing-default);
+      justify-content: space-between;
+      margin-bottom: 0;
+      padding-right: 2em;
+      padding-left: 2em;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      
+      .itc25-hashtag {
+        align-content: center;
+        color: var(--color-suffolk-blue);
+      }
+
+      .itc25-logo {
+        img {
+          height: 100%;
+          width: auto;
+        }
+      }
+    }
+  }
+}
+
+.remark-slide-content {
+  /* Colors */
+  .color-suffolk-blue {
+    color: var(--color-suffolk-blue);
+  }
+  
+  .color-suffolk-gold {
+    &,
+    & a {
+      color: var(--color-suffolk-gold);
+    }
+  }
+  
+  .color-suffolk-blue-dim {
+    color: var(--color-suffolk-blue-dim);
+  }
+  
+  .color-suffolk-gold-dim {
+    color: var(--color-suffolk-gold-dim);
+  }
+  
+  /* Images */
+  i {
+    color: var(--color-suffolk-gold);
+
+    &.circled::before {
+      background-color: var(--color-suffolk-gold);
+      border-radius: 9999px;
+      color: White;
+      display: inline-grid;
+      height: 1.5em;
+      place-content: center;
+      width: 1.5em;
+    }
+
+    &.circled.color-suffolk-blue::before {
+      background-color: var(--color-suffolk-blue);
+    }
+
+    &.circled.font-size-3xhuge {
+      font-size: calc(var(--slides--font-size-huge) * 3);
+    }
+  }
+  
+  /* Layout */
+  
+  /* Typography */
+
+  &.itc > * {
+    color: white !important;
+  }
+}
+
