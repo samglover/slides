@@ -78,10 +78,12 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: var(--spacing-tiny);
 }
 
+ol,
 ul {
   margin-left: 0;
   padding-left: 1em;
 }
+ol li::marker,
 ul li::marker {
   color: var(--color-element-decorations);
 }
@@ -191,6 +193,9 @@ ul li::marker {
   margin-top: var(--spacing-default);
   margin-bottom: var(--spacing-default);
 }
+.grid.grid-auto {
+  grid-template-columns: repeat(2, minmax(auto, max-content));
+}
 .grid.grid-2-1 {
   grid-template-columns: 2fr 1fr;
 }
@@ -218,40 +223,120 @@ ul li::marker {
   gap: var(--spacing-tiny);
 }
 
+.column-gap-tiny {
+  column-gap: var(--spacing-tiny);
+}
+
+.row-gap-tiny {
+  row-gap: var(--spacing-tiny);
+}
+
 .gap-xxs {
   gap: var(--spacing-xxs);
+}
+
+.column-gap-xxs {
+  column-gap: var(--spacing-xxs);
+}
+
+.row-gap-xxs {
+  row-gap: var(--spacing-xxs);
 }
 
 .gap-xs {
   gap: var(--spacing-xs);
 }
 
+.column-gap-xs {
+  column-gap: var(--spacing-xs);
+}
+
+.row-gap-xs {
+  row-gap: var(--spacing-xs);
+}
+
 .gap-sm {
   gap: var(--spacing-sm);
+}
+
+.column-gap-sm {
+  column-gap: var(--spacing-sm);
+}
+
+.row-gap-sm {
+  row-gap: var(--spacing-sm);
 }
 
 .gap-default {
   gap: var(--spacing-default);
 }
 
+.column-gap-default {
+  column-gap: var(--spacing-default);
+}
+
+.row-gap-default {
+  row-gap: var(--spacing-default);
+}
+
 .gap-md {
   gap: var(--spacing-md);
+}
+
+.column-gap-md {
+  column-gap: var(--spacing-md);
+}
+
+.row-gap-md {
+  row-gap: var(--spacing-md);
 }
 
 .gap-lg {
   gap: var(--spacing-lg);
 }
 
+.column-gap-lg {
+  column-gap: var(--spacing-lg);
+}
+
+.row-gap-lg {
+  row-gap: var(--spacing-lg);
+}
+
 .gap-xl {
   gap: var(--spacing-xl);
+}
+
+.column-gap-xl {
+  column-gap: var(--spacing-xl);
+}
+
+.row-gap-xl {
+  row-gap: var(--spacing-xl);
 }
 
 .gap-xxl {
   gap: var(--spacing-xxl);
 }
 
+.column-gap-xxl {
+  column-gap: var(--spacing-xxl);
+}
+
+.row-gap-xxl {
+  row-gap: var(--spacing-xxl);
+}
+
 .gap-huge {
   gap: var(--spacing-huge);
+}
+
+.column-gap-huge {
+  column-gap: var(--spacing-huge);
+}
+
+.row-gap-huge {
+  row-gap: var(--spacing-huge);
 }
 
 .remark-slide-content .margin-top-tiny:not(:has(img)) {

@@ -35,17 +35,15 @@
 			});
 		</script>
 		<script>
-			// const slides = document.querySelectorAll('.remark-slide-content');
-			const footer = document.createElement('div');
-						footer.classList.add('itc25-footer');
 			const hashtag = document.createElement('div');
 						hashtag.classList.add('itc25-hashtag', 'col');
 						hashtag.innerText = '#LSCITC';
 			const logo = document.createElement('div');
 						logo.classList.add('itc25-logo', 'col');
 						logo.innerHTML = '<img src="assets/itc25-logo.png" alt="Innovations in Technology Conference 2025 logo" />';
+			const footer = document.createElement('div');
+						footer.classList.add('itc25-footer');
 						footer.append(hashtag, logo);
-
 			slideshow.on('afterShowSlide', function (slide) {
 				let currentSlide = document.querySelector('.remark-visible .remark-slide-content');
 				currentSlide.append(footer);

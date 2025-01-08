@@ -89,6 +89,10 @@
   margin-top: var(--spacing-default);
   margin-bottom: var(--spacing-default);
 
+  &.grid-auto {
+    grid-template-columns: repeat(2, minmax(auto, max-content));
+  }
+
   &.grid-2-1 {
     grid-template-columns: 2fr 1fr;
   }
@@ -134,5 +138,13 @@ $sizes: (
 @each $size in $sizes {
   .gap-#{$size} {
     gap: var(--spacing-#{$size});
+  }
+
+  .column-gap-#{$size} {
+    column-gap: var(--spacing-#{$size});
+  }
+
+  .row-gap-#{$size} {
+    row-gap: var(--spacing-#{$size});
   }
 }

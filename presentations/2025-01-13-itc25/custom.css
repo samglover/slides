@@ -12,7 +12,7 @@
   --color-text-headings: var(--color-suffolk-gold);
 }
 
-/* Watermark */
+/* ITC25 footer */
 .remark-slides-area {
   .remark-slide-content {
     background-color: var(--color-suffolk-blue);
@@ -78,7 +78,7 @@
     &.circled::before {
       background-color: var(--color-suffolk-gold);
       border-radius: 9999px;
-      color: White;
+      color: var(--color-suffolk-blue);
       display: inline-grid;
       height: 1.5em;
       place-content: center;
@@ -97,9 +97,5 @@
   /* Layout */
   
   /* Typography */
-
-  &.itc > * {
-    color: white !important;
-  }
 }
 
