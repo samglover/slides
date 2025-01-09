@@ -13,38 +13,36 @@
 }
 
 /* ITC25 footer */
-.remark-slides-area {
-  .remark-slide-content {
-    background-color: var(--color-suffolk-blue);
-    padding: 2em 4em;
-    position: relative;
+.remark-slide-content {
+  background-color: var(--color-suffolk-blue);
+  padding: 2em 4em;
+  position: relative;
 
-    .itc25-footer {
-      background-color: white;
-      box-sizing: border-box;
-      content: '';
-      display: flex;
-      height: 14%;
-      gap: var(--spacing-default);
-      justify-content: space-between;
-      margin-bottom: 0;
-      padding-right: 2em;
-      padding-left: 2em;
-      position: absolute;
-      left: 0;
-      bottom: 0;
-      width: 100%;
-      
-      .itc25-hashtag {
-        align-content: center;
-        color: var(--color-suffolk-blue);
-      }
+  .itc25-footer {
+    background-color: white;
+    box-sizing: border-box;
+    content: '';
+    display: flex;
+    height: 14%;
+    gap: var(--spacing-default);
+    justify-content: space-between;
+    margin-bottom: 0;
+    padding-right: 2em;
+    padding-left: 2em;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    
+    .itc25-hashtag {
+      align-content: center;
+      color: var(--color-suffolk-blue);
+    }
 
-      .itc25-logo {
-        img {
-          height: 100%;
-          width: auto;
-        }
+    .itc25-logo {
+      img {
+        height: 100%;
+        width: auto;
       }
     }
   }
