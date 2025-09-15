@@ -1,9 +1,8 @@
-@import 'variables';
-@import 'typography';
-@import 'utils-fontsize';
-@import 'utils-layout';
-@import 'utils-spacing';
-@import 'utils-typography';
+@use 'typography';
+@use 'utils-fontsize';
+@use 'utils-layout';
+@use 'utils-spacing';
+@use 'utils-typography';
 
 $teal: #67c4cf;
 

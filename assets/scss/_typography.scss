@@ -1,3 +1,5 @@
+@use 'variables' as *;
+
 a {
   color: var(--color-links);
   text-underline-offset: .15em;
