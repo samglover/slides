@@ -1,3 +1,5 @@
+@use 'variables' as *;
+
 .remark-slide-content {
   color: var(--color-text-body);
   font-family: var(--font-family-default);

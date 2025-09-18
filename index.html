@@ -28,9 +28,12 @@
 			<section id="presentations" class="slides-section">
 				<h2 class="label">presentations</h2>
 			</section>
+			<h2 class="label">Classes</h2>
 			<section id="suffolk-lit-clinic" class="slides-section">
-				<p class="label">Class</p>
-				<h2>LIT Clinic</h2>
+				<h3>LIT Clinic</h3>
+			</section>
+			<section id="suffolk-clinics" class="slides-section">
+				<h3>Suffolk clinics</h3>
 			</section>
 		</main>
 
@@ -39,13 +42,15 @@
 				try {
 					let contents = await Promise.all([
 						fetch('https://api.github.com/repos/samglover/slides/contents/presentations').then(value => value.json()),
-						fetch('https://api.github.com/repos/samglover/slides/contents/classes/suffolk/lit-clinic').then(value => value.json())
+						fetch('https://api.github.com/repos/samglover/slides/contents/classes/suffolk/lit-clinic').then(value => value.json()),
+						fetch('https://api.github.com/repos/samglover/slides/contents/classes/suffolk/suffolk-clinics').then(value => value.json())
 					])
 					.then((value) => {
 						// The value array keys will be in the same order as the fetches, above.
 						// console.log(value);
 						insertFileList(value[0], 'presentations');
 						insertFileList(value[1], 'suffolk-lit-clinic');
+						insertFileList(value[2], 'suffolk-clinics');
 					})
 				}
 				catch(err) {

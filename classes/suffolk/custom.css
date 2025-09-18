@@ -21,8 +21,6 @@
 
   .remark-slide-container:not(:first-child) {
     .remark-slide-content {
-      position: relative;
-
       &::before {
         content: '';
         background-image: url(assets/lit-lab-logos/lit-lab-torch-inverted.svg);
@@ -63,15 +61,34 @@
   /* Images */
   i {
     color: var(--color-suffolk-gold);
+    
+    &.color-suffolk-blue {
+      color: var(--color-suffolk-blue);
+    }
 
-    &.circled::before {
-      background-color: var(--color-suffolk-gold);
-      border-radius: 9999px;
-      color: White;
-      display: inline-grid;
-      height: 1.5em;
-      place-content: center;
-      width: 1.5em;
+    &.color-suffolk-blue-dim {
+      color: var(--color-suffolk-blue-dim);
+    }
+
+    &.circled {
+
+      &::before {
+        background-color: var(--color-suffolk-gold);
+        border-radius: 9999px;
+        color: White;
+        display: inline-grid;
+        height: 1.5em;
+        place-content: center;
+        width: 1.5em;
+      }
+
+      &.color-suffolk-blue::before {
+        background-color: var(--color-suffolk-blue);
+      }
+
+      &.color-suffolk-blue-dim::before {
+        background-color: var(--color-suffolk-blue-dim);
+      }
     }
   }
   

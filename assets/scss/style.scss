@@ -1,16 +1,14 @@
-@import 'variables';
+@use 'typography';
+@use 'calc-headingsizes';
 
-@import 'typography';
-@import 'calc-headingsizes';
+@use 'layout-slides';
+@use 'typography-slides';
+@use 'typography-notes';
 
-@import 'layout-slides';
-@import 'typography-slides';
-@import 'typography-notes';
-
-@import 'utils-colors';
-@import 'utils-fontsize';
-@import 'utils-imagesize';
-@import 'utils-layout';
-@import 'utils-slideclasses';
-@import 'utils-spacing';
-@import 'utils-typography';
+@use 'utils-colors';
+@use 'utils-fontsize';
+@use 'utils-imagesize';
+@use 'utils-layout';
+@use 'utils-slideclasses';
+@use 'utils-spacing';
+@use 'utils-typography';
