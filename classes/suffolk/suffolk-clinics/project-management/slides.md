@@ -161,10 +161,10 @@ class: middle
 
 <i class="bi bi-calendar-range font-size-xxl circled"></i>
 
-# Start planning your current project<br>.color-suffolk-blue-dim[(10 minutes)]
+# Let's start planning a project<br>.color-suffolk-blue-dim[(10 minutes)]
 
 ???
-I'm sure you all have a current project. Does anyone want to share their project so we can identify the goals and deliverables?
+I'm sure you all have a current project. Does anyone want to share their project so we can start working on it as a group?
 
 ---
 class: middle
