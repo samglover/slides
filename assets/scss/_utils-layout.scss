@@ -4,6 +4,16 @@
   display: block;
 }
 
+.box-shadow {
+  &:not(i) {
+    box-shadow: var(--box-shadow);
+  }
+
+  &:where(i)::before {
+    box-shadow: var(--box-shadow);
+  }
+}
+
 .centered {
   margin-right: auto;
   margin-left: auto;
@@ -37,6 +47,11 @@
   &:where(i)::before {
     transform: scaleY(-1);
   }
+}
+
+.position-bottom {
+  position: absolute;
+    bottom: 1em;
 }
 
 .rotate-90-cw {
