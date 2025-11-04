@@ -20,6 +20,10 @@
   ol,
   ul {
     margin: var(--spacing-lg) 0;
+    
+    ul {
+      margin: var(--spacing-default) 0;
+    }
   }
   
   img {
