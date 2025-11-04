@@ -27,7 +27,9 @@
   }
   
   img {
-    height: var(--image-height-default);
+    height: auto;
+    max-height: var(--image-height-default);
+    max-width: 100%;
     width: auto;
   }
 }
