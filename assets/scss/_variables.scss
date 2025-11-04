@@ -34,6 +34,11 @@
   --index--font-size-xxl: calc(var(--index--font-size-xl) * 1.2);
   --index--font-size-huge: calc(var(--index--font-size-xxl) * 1.2);
 
+  --border-width: 3px;
+  --border-style: solid;
+  --border-color: currentColor;
+  --border-default: var(--border-width) var(--border-style) var(--border-color);
+
   --box-shadow: 5px 5px var(--color-gray-wash);
   --text-shadow: 5px 5px var(--color-gray-wash);
   --text-shadow-small: 1.125px 1.125px var(--color-gray-wash);
