@@ -1,5 +1,63 @@
 @use 'variables' as *;
 
+.background-image-screen {
+  background-color: rgba(0, 0, 0, .25);
+  background-blend-mode: darken;
+}
+
+[class^="background-highlight-"] {
+  margin-top: var(--spacing-default);
+  margin-bottom: var(--spacing-default);
+  
+  blockquote,
+  h1, h2, h3, h4, h5, h6,
+  ol, ul,
+  p
+  {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  &.position-bottom {
+    bottom: calc(1em + var(--spacing-default));
+  }
+}
+
+.background-highlight-dim {
+  background-color: var(--color-dim);
+}
+
+.background-highlight-element-decorations {
+  background-color: var(--color-element-decorations);
+}
+
+.background-highlight-highlight {
+  background-color: var(--color-highlight);
+}
+
+.background-highlight-gray-wash {
+  background-color: var(--color-gray-wash);
+}
+
+.background-highlight-links {
+  background-color: var(--color-links);
+}
+
+.background-highlight-text-light {
+  background-color: var(--color-text-light);
+}
+
+.background-highlight-text-body {
+  background-color: var(--color-text-body);
+  color: white;
+}
+
+.background-highlight-text-headings {
+  background-color: var(--color-text-headings);
+  color: white;
+}
+
+
 .color-white {
   color: white;
 }

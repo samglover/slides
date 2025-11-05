@@ -101,6 +101,16 @@
     content: '\F633';
     font-family: bootstrap-icons !important;
   }
+
+  ul ul:not(ul ul ul) > li {
+    &::before {
+      background-color: unset;
+      border: var(--border-default);
+      color: var(--color-element-decorations);
+      height: calc(1.5em - (2 * var(--border-width)));
+      width: calc(1.5em - (2 * var(--border-width)));
+    }
+  }
 }
 
 .circled-numbers {
@@ -166,4 +176,20 @@
 
 .text-align-center {
   text-align: center;
+}
+
+.text-outline {
+  -webkit-text-stroke: 1px var(--color-text-body);
+}
+
+.text-outline-dim {
+  -webkit-text-stroke: 1px var(--color-dim);
+}
+
+.text-shadow {
+  text-shadow: var(--shadow);
+}
+
+.text-shadow-small {
+  text-shadow: var(--shadow-small);
 }
