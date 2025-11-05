@@ -6,11 +6,36 @@
 
 .box-shadow {
   &:not(i) {
-    box-shadow: var(--box-shadow);
+    box-shadow: var(--shadow);
   }
 
-  &:where(i)::before {
-    box-shadow: var(--box-shadow);
+  &:where(i) {
+    &:not(.circled)::before {
+      text-shadow: var(--shadow);
+    }
+
+    &.circled {
+      border-radius: 9999px;
+      box-shadow: var(--shadow);
+    }
+  }
+}
+
+.box-shadow-small {
+  &:not(i) {
+    box-shadow: var(--shadow-small);
+  }
+  
+  &:where(i) {
+    &:not(.circled)::before {
+      border-radius: 9999px;
+      text-shadow: var(--shadow-small);
+    }
+
+    &.circled {
+      border-radius: 9999px;
+      box-shadow: var(--shadow-small);
+    }
   }
 }
 
