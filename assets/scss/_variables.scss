@@ -39,9 +39,8 @@
   --border-color: currentColor;
   --border-default: var(--border-width) var(--border-style) var(--border-color);
 
-  --box-shadow: 5px 5px var(--color-gray-wash);
-  --text-shadow: 5px 5px var(--color-gray-wash);
-  --text-shadow-small: 1.125px 1.125px var(--color-gray-wash);
+  --shadow: 5px 5px var(--color-gray-wash);
+  --shadow-small: 1.25px 1.25px var(--color-gray-wash);
   
   --image-height-default: 9.375rem;
   --image-height-xs: calc(var(--image-height-sm) / 1.5);
@@ -52,6 +51,9 @@
 
   --line-height-default: 1.3;
   --line-height-sm: 1.15;
+
+  --slide-padding-y: 2em;
+  --slide-padding-x: 6em;
   
   --spacing-default: .9375rem;
   --spacing-tiny: calc(var(--spacing-xxs) / 1.5);
