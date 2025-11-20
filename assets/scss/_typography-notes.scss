@@ -1,3 +1,5 @@
+@use 'variables' as *;
+
 .remark-toolbar .remark-toolbar-timer,
 .remark-notes-area .remark-bottom-area .remark-toggle {
   font-family: var(--font-family-default);

@@ -1,9 +1,8 @@
-@import 'variables';
-@import 'typography';
-@import 'utils-fontsize';
-@import 'utils-layout';
-@import 'utils-spacing';
-@import 'utils-typography';
+@use 'typography';
+@use 'utils-fontsize';
+@use 'utils-layout';
+@use 'utils-spacing';
+@use 'utils-typography';
 
 $teal: #67c4cf;
 
@@ -74,9 +73,7 @@ body {
   > :last-child {
     margin-bottom: var(--spacing-lg);
   }
-}
 
-.slides-section {
   h2 {
     font-size: var(--index--font-size-md);
     line-height: var(--line-height-sm);
@@ -86,18 +83,24 @@ body {
       font-size: var(--index--font-size-sm);
       margin-bottom: var(--spacing-sm) !important;
     }
+
+    + .slides-section :first-child {
+      margin-top: 0;
+    }
   }
 
   p {
     margin-top: var(--spacing-default);
     margin-bottom: var(--spacing-default);
-
+  
     &.label {
       font-size: var(--index--font-size-sm);
       margin-top: var(--spacing-lg);
     }
   }
+}
 
+.slides-section {
   ul {
     list-style: none;
     margin-top: var(--spacing-sm);

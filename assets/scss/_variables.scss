@@ -2,6 +2,7 @@
   --color-dim: rgba(112, 128, 144, .5); // Based on SlateGray
   --color-element-decorations: var(--color-text-light);
   --color-highlight: rgba(255, 255, 0, .5);
+  --color-gray-wash: rgba(112, 128, 144, .25);
   --color-links: SlateBlue;
   --color-links-hover: DarkSlateBlue;
   --color-text-light: SlateGray;
@@ -32,6 +33,14 @@
   --index--font-size-xl: calc(var(--index--font-size-lg) * 1.2);
   --index--font-size-xxl: calc(var(--index--font-size-xl) * 1.2);
   --index--font-size-huge: calc(var(--index--font-size-xxl) * 1.2);
+
+  --border-width: 3px;
+  --border-style: solid;
+  --border-color: currentColor;
+  --border-default: var(--border-width) var(--border-style) var(--border-color);
+
+  --shadow: 5px 5px var(--color-gray-wash);
+  --shadow-small: 1.25px 1.25px var(--color-gray-wash);
   
   --image-height-default: 9.375rem;
   --image-height-xs: calc(var(--image-height-sm) / 1.5);
@@ -42,6 +51,9 @@
 
   --line-height-default: 1.3;
   --line-height-sm: 1.15;
+
+  --slide-padding-y: 2em;
+  --slide-padding-x: 6em;
   
   --spacing-default: .9375rem;
   --spacing-tiny: calc(var(--spacing-xxs) / 1.5);
