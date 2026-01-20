@@ -32,11 +32,6 @@ a {
   color: var(--color-dim);
 }
 
-.font-size-extra-huge {
-  font-size: calc(1.5 * var(--slides--font-size-huge));
-  line-height: 1;
-}
-
 .remark-slide-content {
   background-color: var(--color-suffolk-blue);
   background-image: url(assets/suffolk-slide-background.png);
@@ -60,8 +55,33 @@ a {
       width: calc(var(--slides--font-size-xxl) * .4576940605);
     }
   }
+
+  .color-suffolk-blue {
+    color: var(--color-suffolk-blue);
+  }
   
-  h1, h2, h3, h4, h5, h6 {
-    color: var(--color-suffolk-gold);
+  .color-suffolk-gold {
+    &,
+    & a {
+      color: var(--color-suffolk-gold);
+    }
+  }
+  
+  .color-suffolk-blue-dim {
+    color: var(--color-suffolk-blue-dim);
+  }
+  
+  .color-suffolk-gold-dim {
+    color: var(--color-suffolk-gold-dim);
+  }
+  
+  h1 {
+    color: white;
+    font-size: calc(1.5 * var(--slides--font-size-huge));
+    line-height: 1;
+  }
+
+  h2, h3, h4, h5, h6 {
+    color: white;
   }
 }
