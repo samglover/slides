@@ -1,5 +1,6 @@
 class: no-watermark
-# .color-white.font-size-extra-huge[Document <br>Assembly <br>Line]
+
+# Document <br>Assembly <br>Line
 
 .dim.font-size-xxl.font-weight-lighter.margin-top-lg[
   OVERVIEW
@@ -12,8 +13,38 @@ class: middle
 > .font-size-lg[A well-designed form allows people to express themselves in a way the court can understand.]
 > 
 > <cite>David Colarusso, LIT Lab Co-Director</cite>
+
 ---
-# Free & open-source components
+class: middle
+
+## Open-source document assembly <br>and e-filing tools
+
+???
+
+We build, host, and support open-source document assembly and e-filing tools for courts and legal aid organizations
+
+---
+## Document assembly tools
+
+Build beautiful, responsive, accessible online guided interviews with Docassemble and the AssemblyLine tools.
+
+- Library of pre-built, user-tested questions and components
+- Gentle learning curve
+- Code handles complexity better than drag-and-drop tools
+
+See examples at [courtformsonline.org](https://courtformsonline.org)
+
+---
+## E-filing tools
+
+Suffolk's e-filing service provider (EFSP) delivers completed forms to court e-filing systems directly from Docassemble interviews.
+
+- Removes a major obstacle for self-represented litigants (SRLs)
+- Reduces the burden on court staff
+- Certified for Tyler eFile & Serve, and customizable for other e-filing systems
+
+---
+## Free & open-source components
 
 The following core components are free and open source thanks to an active community of courts, legal aid organizations, and volunteers.
 
@@ -34,7 +65,7 @@ The following core components are free and open source thanks to an active commu
   ]
 ]
 ---
-# Funded partnership benefits
+## Funded partnership benefits
 
 Funded partnerships with courts support the Document Assembly Line and enable us to provide additional services for our partners.
 
@@ -54,6 +85,13 @@ Funded partnerships with courts support the Document Assembly Line and enable us
     <p>**Training & support**</p>
   ]
 ]
+---
+## What's next
+
+- LITEfile
+- A low-code alternative editing interface for Docassemble
+- ???
+
 ---
 class: no-watermark
 ## .font-size-xxl.margin-bottom-0[The Document Assembly Line]
