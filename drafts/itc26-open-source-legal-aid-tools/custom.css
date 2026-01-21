@@ -1,0 +1,18 @@
+/* Variables */
+:root {
+  --color-suffolk-blue: #15284b;
+  --color-suffolk-blue-dim: rgba(21, 40, 75, .5);
+  --color-suffolk-gold: #fdb924;
+  --color-suffolk-gold-dim: rgba(253, 185, 36, .5);
+
+  --color-element-decorations: var(--color-suffolk-gold);
+  --color-links: var(--color-suffolk-gold);
+  --color-links-hover: var(--color-suffolk-gold);
+  --color-text-body: var(--color-suffolk-blue);
+  --color-text-headings: var(--color-suffolk-blue);
+  --color-dim: var(--color-suffolk-blue-dim);
+}
+
+.remark-slide-content {
+  padding: 2em 4em;
+}
