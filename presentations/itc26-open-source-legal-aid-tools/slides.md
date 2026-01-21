@@ -92,13 +92,13 @@ class: middle
 
   Websites
 
-  This slideshow
+  [This slideshow](https://remarkjs.com)
 
-  LACI
+  [LACI](https://codeberg.org/LACI)
 
-  Docassemble
+  [Docassemble](https://docassemble.org/)
 
-  Spark
+  [Spark](https://www.igniterealtime.org/projects/spark/)
 ]
 
 ???
