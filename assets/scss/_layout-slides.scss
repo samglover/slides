@@ -1,6 +1,7 @@
 @use 'variables' as *;
 
 .remark-slide-content {
+  background-color: var(--color-background);
   padding: 2em 6em;
 
   

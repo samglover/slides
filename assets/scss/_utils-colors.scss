@@ -57,6 +57,19 @@
   color: white;
 }
 
+.border {
+  &:not(:has(img)) {
+    border: var(--border-width) var(--border-style) currentColor;
+    border-radius: var(--border-radius);
+  }
+  
+  &:has(img) {
+    img {
+      border: var(--border-width) solid currentColor;
+      border-radius: var(--border-radius);
+    }
+  }
+}
 
 .color-white {
   color: white;

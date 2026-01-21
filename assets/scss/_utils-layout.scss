@@ -112,7 +112,7 @@
 // Flex & Grid
 .row {
   display: flex;
-  gap: var(--spacing-sm);
+  gap: var(--spacing-default);
   margin-top: var(--spacing-default);
   margin-bottom: var(--spacing-default);
 
@@ -125,7 +125,7 @@
 
 .grid {
   display: grid;
-  gap: var(--spacing-sm);
+  gap: var(--spacing-default);
   grid-template-columns: repeat(2, 1fr);
 
   margin-top: var(--spacing-default);
@@ -145,8 +145,8 @@
   
   & > *,
   img {
-    margin-top: 0;
-    margin-bottom: 0;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
   }
 }
 
@@ -197,4 +197,16 @@ $sizes: (
   .row-gap-#{$size} {
     row-gap: var(--spacing-#{$size});
   }
+}
+
+.gap-0 {
+  gap: 0;
+}
+
+.column-gap-0 {
+  column-gap: 0;
+}
+
+.row-gap-0 {
+  row-gap: 0;
 }

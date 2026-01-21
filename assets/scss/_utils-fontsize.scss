@@ -25,3 +25,21 @@ $sizes: (
     }
   }
 }
+
+.remark-slide-content {
+  .font-size-2xhuge {
+    font-size: calc( var(--slides--font-size-huge) * 2);
+  }
+
+  .font-size-3xhuge {
+    font-size: calc( var(--slides--font-size-huge) * 3);
+  }
+
+  .font-size-4xhuge {
+    font-size: calc( var(--slides--font-size-huge) * 4);
+  }
+
+  .font-size-5xhuge {
+    font-size: calc( var(--slides--font-size-huge) * 5);
+  }
+}

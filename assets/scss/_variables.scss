@@ -1,4 +1,5 @@
 :root {
+  --color-background: Snow;
   --color-dim: rgba(112, 128, 144, .5); // Based on SlateGray
   --color-element-decorations: var(--color-text-light);
   --color-highlight: rgba(255, 255, 0, .5);
@@ -37,6 +38,7 @@
   --border-width: 3px;
   --border-style: solid;
   --border-color: currentColor;
+  --border-radius: var(--border-width);
   --border-default: var(--border-width) var(--border-style) var(--border-color);
 
   --shadow: 5px 5px var(--color-gray-wash);
