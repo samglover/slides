@@ -8,22 +8,26 @@ background-size: contain
 
 # Open-source legal aid tools<br> .dim.font-size-xxl.font-weight-lighter[pros, cons, and procurement]
 
-.grid.grid-auto.column-gap-lg.row-gap-md.margin-top-xl[
+.grid.grid-auto.column-gap-lg.font-size-sm.row-gap-sm.margin-top-lg[
   **Luigi Bai**
 
-  Lone Star Legal Aid
+  Lone Star Legal Aid<br>
+  .dim[ [lbai@lonestarlegal.org](mailto:lbai@lonestarlegal.org) ]
 
   **Jessica Frank**
 
-  Free Law Project
+  Free Law Project<br>
+  .dim[ [jessica@free.law](mailto:jessica@free.law) ]
 
   **Sam Glover**
 
-  Suffolk LIT Lab
+  Suffolk LIT Lab<br>
+  .dim[ [sam.glover@suffolk.edu](mailto:sam.glover@suffolk.edu) ]
 
   **Alison Paul**
 
-  Montana Legal Services
+  Montana Legal Services<br>
+  .dim[ [apaul@mtlsa.org](mailto:apaul@mtlsa.org) ]
 ]
 
 ???

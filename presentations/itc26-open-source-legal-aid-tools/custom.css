@@ -6,8 +6,8 @@
   --color-suffolk-gold-dim: rgba(253, 185, 36, .5);
 
   --color-element-decorations: var(--color-suffolk-blue-dim);
-  --color-links: var(--color-suffolk-gold);
-  --color-links-hover: var(--color-suffolk-gold);
+  --color-links: var(--color-suffolk-blue-dim);
+  --color-links-hover: var(--color-suffolk-blue);
   --color-text-body: var(--color-suffolk-blue);
   --color-text-headings: var(--color-suffolk-blue);
   --color-dim: var(--color-suffolk-blue-dim);
