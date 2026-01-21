@@ -172,6 +172,22 @@
   align-items: end;
 }
 
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-space-around {
+  justify-content: space-around;
+}
+
+.justify-content-space-between {
+  justify-content: space-between;
+}
+
+.justify-content-space-evenly {
+  justify-content: space-evenly;
+}
+
 $sizes: (
   'tiny',
   'xxs',

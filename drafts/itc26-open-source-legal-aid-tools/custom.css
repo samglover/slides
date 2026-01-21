@@ -5,7 +5,7 @@
   --color-suffolk-gold: #fdb924;
   --color-suffolk-gold-dim: rgba(253, 185, 36, .5);
 
-  --color-element-decorations: var(--color-suffolk-gold);
+  --color-element-decorations: var(--color-suffolk-blue-dim);
   --color-links: var(--color-suffolk-gold);
   --color-links-hover: var(--color-suffolk-gold);
   --color-text-body: var(--color-suffolk-blue);
