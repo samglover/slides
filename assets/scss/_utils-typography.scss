@@ -79,7 +79,7 @@
     padding-left: 0;
 
     li {
-      padding-left: calc(1.75em + var(--spacing-xs));
+      padding-left: calc(( 1.2 * var(--slides--font-size-md )) + var(--spacing-default));
       position: relative;
 
       &::before {
@@ -87,14 +87,14 @@
         border-radius: 9999px;
         color: White;
         display: inline-grid;
+        font-size: var(--slides--font-size-default);
         font-weight: bolder;
-        height: 1.5em;
-        margin-right: var(--spacing-default);
+        height: calc(1.2 * var(--slides--font-size-md));
         place-content: center;
         position: absolute;
-          top: calc(-1 * (1lh - 1em) / 2);
+          top: calc(.1 * 1.3 * var(--slides--font-size-md) / 2);
           left: 0;
-        width: 1.5em;
+        width: calc(1.2 * var(--slides--font-size-md));
       }
     }
   }
