@@ -1,24 +1,15 @@
 .image-height-sm.margin-bottom-lg[![LIT Lab logo](../../assets/lit-lab-logos/lit-lab-logo-small.svg)]
 
-# .font-size-huge[Basic project management]
-.color-suffolk-blue-dim[Integrating project management for clinic success]
+# .font-size-huge.margin-bottom-0[Legal project management]
+.color-suffolk-blue-dim.font-size-md.margin-top-0[a quick-start guide for law clinic students]
 
-.color-suffolk-gold[[Sam Glover](https://samglover.net)]
-
-???
-20 minute presentation
-10 minutes for interaction
-15 minutes for Q&A/open discussion
-
----
-class: middle, center
-
-# Project management<br>.color-suffolk-gold[ v. ]<br>Time management<br>.color-suffolk-blue-dim[(work planning)]
+.margin-top-xxl[
+  .color-suffolk-blue-dim[Presented by] [Sam Glover](https://samglover.net)
+]
 
 ???
-Today we'll be talking about project management. Project management is about planning all the steps in your project, from beginning to end. You may be planning for a team, or just for yourself, but our central focus for project management is the project itself, and the time frame is now until the project is complete.
 
-Next week, we'll talk about time management and work planning. Work planning is about figuring what *you* should be focused on from day-to-day across all your projects, and the time frame is usually one week at a time.
+10–20 minute presentation, then Q&A
 
 ---
 class: middle
