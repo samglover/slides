@@ -1,0 +1,23 @@
+.box-shadow {
+	box-shadow: var(--shadow);
+}
+
+.box-shadow-sm {
+	box-shadow: var(--shadow-sm);
+}
+
+.drop-shadow {
+	filter: var(--drop-shadow);
+}
+
+.drop-shadow-sm {
+	filter: var(--drop-shadow-sm);
+}
+
+.text-shadow {
+	text-shadow: var(--shadow);
+}
+
+.text-shadow-sm {
+	text-shadow: var(--shadow-sm);
+}

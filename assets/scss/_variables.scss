@@ -42,7 +42,9 @@
   --border-default: var(--border-width) var(--border-style) var(--border-color);
 
   --shadow: 5px 5px var(--color-gray-wash);
-  --shadow-small: 1.25px 1.25px var(--color-gray-wash);
+  --shadow-sm: 1.25px 1.25px var(--color-gray-wash);
+  --drop-shadow: drop-shadow(5px 5px var(--color-gray-wash));
+  --drop-shadow-sm: drop-shadow(2.5px 2.5px var(--color-gray-wash));
   
   --image-height-default: 9.375rem;
   --image-height-xs: calc(var(--image-height-sm) / 1.5);

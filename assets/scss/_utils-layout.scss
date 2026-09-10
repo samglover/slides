@@ -23,18 +23,18 @@
 
 .box-shadow-small {
   &:not(i) {
-    box-shadow: var(--shadow-small);
+    box-shadow: var(--shadow-sm);
   }
   
   &:where(i) {
     &:not(.circled)::before {
       border-radius: 9999px;
-      text-shadow: var(--shadow-small);
+      text-shadow: var(--shadow-sm);
     }
 
     &.circled {
       border-radius: 9999px;
-      box-shadow: var(--shadow-small);
+      box-shadow: var(--shadow-sm);
     }
   }
 }
