@@ -1,20 +1,19 @@
 .image-height-sm.margin-bottom-lg[![LIT Lab logo](../../assets/lit-lab-logos/lit-lab-logo-small.svg)]
 
-# .font-size-huge.margin-bottom-0[Legal project management]
-.color-suffolk-blue-dim.font-size-md.margin-top-0[a quick-start guide for law clinic students]
+# .font-size-huge.margin-bottom-0.text-shadow[Legal project management]
+.color-suffolk-blue-dim.font-size-md.margin-top-0[a quick-and-dirty guide for law students]
 
 .margin-top-xxl[
   .color-suffolk-blue-dim[Presented by] [Sam Glover](https://samglover.net)
 ]
 
 ???
-
 10–20 minute presentation, then Q&A
 
 ---
 class: middle
 
-<i class="bi bi-person-arms-up font-size-xxl circled"></i>
+<i class="bi bi-person-arms-up font-size-xxl circled text-shadow"></i>
 
 # You are your most important project
 
@@ -31,9 +30,45 @@ The hard part is actually doing the work. Everyone finds it hard to get organize
 So:
 
 1. **Take care of yourself.** Everyone needs to eat healthy, exercise, and get plenty of sleep!
-2. **Take care of your brain.** If you struggle with executive function (like I do, due to my ADHD), please talk to your doctor. I can't tell you what's going on with your brain, but if you know your brain is neurodivergent or suspect it might be, don't ignore it! Get help! Like my doctor told me when I was hesitant to take medication for my ADHD, "you can't think your way out of a chemical imbalance in your brain."
+2. **Take care of your brain.** If you struggle with executive function (like I do, due to my ADHD), don't ignore it. Talk to your doctor, Lawyers Concerned for Lawyers, or go to the dean of students to learn about tools and resources the school can provide.
 
-  It can make a huge difference.
+  It can make a huge difference!
+
+---
+class: middle
+
+## Resources
+
+- Suffolk Law Dean of Students
+  .color-suffolk-blue-dim.font-size-sm[`suffolk.edu/law/academics-clinics/student-life/advising-counseling`]
+- Lawyers Concerned for Lawyers ADHD support
+  .color-suffolk-blue-dim.font-size-sm[`lclma.org/adhd-support`]
+
+---
+class: middle
+
+<i class="bi bi-exclamation-circle-fill font-size-xxl circled text-shadow"></i>
+
+# Missing a deadline could mean more than just a bad grade
+
+???
+You are student attorneys working with real clients who have real legal problems. The consequences could be much more significant than just a bad grade.
+
+For a practicing lawyer, missing a deadline could be malpractice. For a client, a missed deadline could lead to tragedy.
+
+So take project management seriously—it is a core lawyering skill!
+
+---
+class: middle
+
+<i class="bi bi-clock-history font-size-xxl circled text-shadow"></i>
+
+# Work backwards from the deadline
+
+???
+It's common to approach deadlines by looking forward: what's due tomorrow or what's due next week. But that doesn't work for bigger, multi-step projects with longer timelines. Like a lot of legal deadlines.
+
+Instead, you need to plan by working backwards from the deadline to today. This is what makes project management different than just keeping track of deadlines.
 
 ---
 class: middle
@@ -41,79 +76,106 @@ class: middle
 # How to plan a project
 
 .circled-numbers[
-1. Identify the ultimate **goal**
-2. Clarify **deliverables**
-3. Identify **milestones**
-4. Identify, scope, and assign **tasks**
-5. Create a project **timeline**
-6. Schedule **check-ins**
+1. Frame the project **objective**
+2. Clarify **expectations**
+3. Identify intermediate **deadlines**
+4. Make lists of **tasks**
 ]
 
 ???
-I'm not going to talk too much about tools in this session. 
+Project management starts with an **objective—the** reason you are doing the project. Always make sure you and your client are on the same page about what's expected. Then, work backward from the objective to figure out your deadlines and make task lists.
 
-If you are working in a regular clinic, all of this information is attorney work product, so you should use secure tools like Clio notes and tasks.
+I'm not going to talk too much about tools in this session, by the way. You can find some recommended work planning tools in Canvas, under **Modules**.
 
-In the LIT Clinic, we use GitHub project boards.
-
-I'll suggest some work plannnig tools next week, but always keep confidentiality in mind.
+If you are working in a regular clinic, most or all of this information is attorney work product, so you should use secure tools like Clio notes and tasks. But it's helpful to do daily and weekly work planning as long as you don't include client information.
 
 ---
 class: middle
 
-.circle.font-size-xxl[ **1** ]
+.circle.font-size-xxl.text-shadow[ **1** ]
 
-# Identify the ultimate goal
+# .margin-bottom-0[Frame the project objective]
+
+- Interview the client
+- Represent the client at a hearing
+- Appeal the denial of the client's benefits claim
+- Draft a contract or memorandum
+- Build a guided interview
 
 ???
-You should always keep the ultimate, big-picture goal in mind. It is the context for all the rest, and will affect the decisions you make.
+The project objective is the thing you are currently working on. Start there!
 
-For example, if your client just wants money, you might make different decisions than if they want to stay in their home or job.
+Notice I've written every example with a **verb**. A project is about **doing something**, so focus on the the work to be done. Write it down.
+
+When framing the objective, keep important context in mind:
+
+- Your client's ultimate, big-picture objective (staying in their home or getting their job back)
+- What comes next in the process (mediation, negotiation, feedback, etc.)
+- External considerations (like setting precedent for other clients)
 
 ---
 class: middle
 
-.circle.font-size-xxl[ **2** ]
+.circle.font-size-xxl.text-shadow[ **2** ]
 
-# Clarify deliverables and requirements
+# .margin-bottom-0[Clarify expectations]
+.color-suffolk-blue-dim.font-size-md.margin-top-0[(a/k/a deliverables & requirements)]
 
 ???
-"Deliverables" means what you are currently working on: a brief, a contract, a hearing, etc.
+As early as possible, clarify expectations and make sure you and your client (and your professor) are on the same page about what you are going to do (deliverables) and how you are going to do it (requirements).
 
-You might have only one, but you'll often have two or three. For example, a hearing often involves filing a brief, maybe a reply, and arguing in court.
+**Deliverables** are the work product. Things like:
 
-Make sure to list anything required for the deliverable to be considered complete. For example, a brief must be filed and served on all parties. Contracts must be fully executed.
+- Completed intake questionnaire
+- Signed contract
+- Draft memorandum with supporting affidavit
+- Launch-ready guided interview
+
+**Requirements** are the details—anything required for the deliverable to be considered complete. Things like:
+
+- Client signoff
+- Complies with applicable rules or third-party standards
+- Word count
+- Format (paper, PDF)
+- Signed and filed
+
+In many cases, your clinic may already have a checklist to follow.
 
 ---
 class: middle
 
-.circle.font-size-xxl[ **3** ]
+.circle.font-size-xxl.text-shadow[ **3** ]
 
-# Identify milestones
+# .margin-bottom-0[Identify intermediate deadlines]
+.color-suffolk-blue-dim.font-size-md.margin-top-0[(a/k/a milestones)]
 
 ???
-Milestones are the major steps on the way to the deliverable, like drafts and revisions, initial briefs and replies, etc. They should have their own deadlines, which will shape the project timeline. For example, if you know it will take your professor a week to review a draft social security appeal, you'll need to put a deadline on it that gives you at least that much time.
+**This is the most important part of project management.**
+
+Deadlines for the major steps on the way to the deliverable, like drafts and revisions, initial briefs and replies, etc., can also be called **milestones**. They provide structure to the project timeline, like a roadmap from now to the finish line.
+
+There are hard deadlines and soft deadlines.
+
+- **Hard deadlines** are imposed on you by your client, the court, or your professor
+- **Soft deadlines** are those you set to keep yourself on schedule
+
+For example, your brief may be due on October 3rd. That's a hard deadline. But in order to meet that deadline, you'll need to get your professor's feedback on a rough draft with time to make changes. If that will take you at least a week, that means you'll want to set a draft deadline of September 26th. That's a soft deadline.
 
 ---
 class: middle
 
-.circle.font-size-xxl[ **4** ]
+.circle.font-size-xxl.text-shadow[ **4** ]
 
-# Identify, scope, and assign tasks
+# .margin-bottom-0[Make lists of tasks]
 
 ???
-Now, for each milestone, list all the tasks and sub-tasks involved.
+For each intermediate deadline/milestone, list all the tasks and sub-tasks involved. As you do this, you may realize that some tasks should get "promoted" to milestones.
 
-Use the "in order to X, I'll need to Y" framework from the handout. Then, take the time to scope each task.
+Get as granular as you find helpful, but in general, make sure the title of the task actually describes the work to be done, or include a checklist with the steps necessary to complete the task. This will be helpful when you come back and get started later and may no longer remember what you meant by "research."
 
-Scoping tasks means clarifying what the task or project is and estimating the time required to do it.
+This can also help with time management. If you want to know whether your project time is realistic, put time estimates on your tasks for each milestone deadline, add them up, and use the total to determine whether you've got enough time to meet the deadline.
 
-- Make the title actionable—a complete sentence that describes the work to be done
-- Add sub-tasks (also with actionable titles) for each step necessary to complete the primary task
-- Add any notes, links, and attachments that will help you get the task done
-- Add a size/time estimate for the task or project
-
-When it comes to estimating the size of a task or project, I use “T-shirt sizes.” Here are the rough time equivalents to T-shirt sizes as I think of them:
+If you do estimate time, try using “T-shirt sizes”:
 
 - XS = less than 1 hour
 - SM = 1–4 hours (half a day or less)
@@ -124,42 +186,17 @@ When it comes to estimating the size of a task or project, I use “T-shirt size
 ---
 class: middle
 
-.circle.font-size-xxl[ **5** ]
+.row.align-items-center[
+<i class="bi bi-stop-fill font-size-xxl circled text-shadow"></i>
 
-# Create a project timeline
-
-???
-Arrange your deliverables and milestones on a calendar between now and your deliverable(s) deadline(s). Your task time estimates should help you figure out if you have given yourself enough time.
-
----
-class: middle
-
-.circle.font-size-xxl[ **6** ]
-
-# Schedule regular check-ins
+## `</recording>`
+]
+.row.align-items-center[
+<i class="bi bi-question-lg font-size-xxl circled text-shadow"></i>
+## sam.glover@suffolk.edu
+]
 
 ???
-Whether or not you have a team, schedule a regular, weekly project check-in. This can be brief, just a chance to review/share:
+Those are the basics of project management!
 
-1. What you did since the last check-in
-2. If any "blockers" are preventing you from making progress
-3. What you are planning to work on over the next week
-
-(You are probably already doing this—or something very similar—in your clinic, so good job!)
-
----
-class: middle
-
-<i class="bi bi-calendar-range font-size-xxl circled"></i>
-
-# Let's start planning a project<br>.color-suffolk-blue-dim[(10 minutes)]
-
-???
-I'm sure you all have a current project. Does anyone want to share their project so we can start working on it as a group?
-
----
-class: middle
-
-<i class="bi bi-arrow-right font-size-xxl circled"></i>
-
-# Next week: time management (work planning)
+Now we'll stop the recording and I'll answer questions. But you can also email me with questions any time!
