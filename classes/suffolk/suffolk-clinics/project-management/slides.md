@@ -8,7 +8,7 @@
 ]
 
 ???
-10–20 minute presentation, then Q&A
+~15 minute presentation, then Q&A
 
 ---
 class: middle
@@ -83,7 +83,7 @@ class: middle
 ]
 
 ???
-Project management starts with an **objective—the** reason you are doing the project. Always make sure you and your client are on the same page about what's expected. Then, work backward from the objective to figure out your deadlines and make task lists.
+Project management starts with an **objective**—the reason you are doing the project. Always make sure you and your client are on the same page about what's expected. Then, work backward from the objective to figure out your deadlines and make task lists.
 
 I'm not going to talk too much about tools in this session, by the way. You can find some recommended work planning tools in Canvas, under **Modules**.
 
